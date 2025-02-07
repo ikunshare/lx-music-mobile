@@ -1,64 +1,69 @@
-<p align="center"><a href="https://github.com/ikunshare/ikun-music-mobile"><img width="200" src="https://github.com/ikunshare/ikun-music-mobile/blob/master/doc/images/icon.png" alt="lx-music logo"></a></p>
+<p align="center"><a href="https://github.com/lyswhut/lx-music-mobile"><img width="200" src="https://github.com/lyswhut/lx-music-mobile/blob/master/doc/images/icon.png" alt="lx-music logo"></a></p>
 
 <h1 align="center">LX Music 移动版</h1>
 
 <p align="center">
-  <a href="https://github.com/ikunshare/ikun-music-mobile/releases"><img src="https://img.shields.io/github/release/ikunshare/ikun-music-mobile" alt="Release version"></a>
-  <a href="https://github.com/ikunshare/ikun-music-mobile/actions/workflows/release.yml"><img src="https://github.com/ikunshare/ikun-music-mobile/workflows/Build/badge.svg" alt="Build status"></a>
-  <a href="https://github.com/ikunshare/ikun-music-mobile/actions/workflows/beta-pack.yml"><img src="https://github.com/ikunshare/ikun-music-mobile/workflows/Build%20Beta/badge.svg" alt="Build status"></a>
-  <a href="https://github.com/facebook/react-native"><img src="https://img.shields.io/github/package-json/dependency-version/ikunshare/ikun-music-mobile/react-native/master" alt="React native version"></a>
-  <!-- <a href="https://github.com/ikunshare/ikun-music-mobile/releases"><img src="https://img.shields.io/github/downloads/ikunshare/ikun-music-mobile/latest/total" alt="Downloads"></a> -->
-  <a href="https://github.com/ikunshare/ikun-music-mobile/tree/dev"><img src="https://img.shields.io/github/package-json/v/ikunshare/ikun-music-mobile/dev" alt="Dev branch version"></a>
-  <!-- <a href="https://github.com/ikunshare/ikun-music-mobile/blob/master/LICENSE"><img src="https://img.shields.io/github/license/ikunshare/ikun-music-mobile" alt="License"></a> -->
+  <a href="https://github.com/lyswhut/lx-music-mobile/releases"><img src="https://img.shields.io/github/release/lyswhut/lx-music-mobile" alt="Release version"></a>
+  <a href="https://github.com/lyswhut/lx-music-mobile/actions/workflows/release.yml"><img src="https://github.com/lyswhut/lx-music-mobile/workflows/Build/badge.svg" alt="Build status"></a>
+  <a href="https://github.com/lyswhut/lx-music-mobile/actions/workflows/beta-pack.yml"><img src="https://github.com/lyswhut/lx-music-mobile/workflows/Build%20Beta/badge.svg" alt="Build status"></a>
+  <a href="https://github.com/facebook/react-native"><img src="https://img.shields.io/github/package-json/dependency-version/lyswhut/lx-music-mobile/react-native/master" alt="React native version"></a>
+  <!-- <a href="https://github.com/lyswhut/lx-music-mobile/releases"><img src="https://img.shields.io/github/downloads/lyswhut/lx-music-mobile/latest/total" alt="Downloads"></a> -->
+  <a href="https://github.com/lyswhut/lx-music-mobile/tree/dev"><img src="https://img.shields.io/github/package-json/v/lyswhut/lx-music-mobile/dev" alt="Dev branch version"></a>
+  <!-- <a href="https://github.com/lyswhut/lx-music-mobile/blob/master/LICENSE"><img src="https://img.shields.io/github/license/lyswhut/lx-music-mobile" alt="License"></a> -->
 </p>
 
 <p align="center">一个基于 React Native 开发的音乐软件</p>
 
 ## 说明
 
-支持的平台：
+所用技术栈：
+
+- React Native
+- Redux
+
+已支持的平台：
 
 - Android
 
-*注：由于没有相关开发环境及证书，所以 **没有计划支持 iOS**。*<br>
+***注：目前没有计划支持 iOS 和 HarmonyOS NEXT**。*<br>
 *桌面版项目地址：<https://github.com/lyswhut/lx-music-desktop>*
 
-软件变化请查看 [更新日志](https://github.com/ikunshare/ikun-music-mobile/blob/master/CHANGELOG.md)。
+软件变化请查看[更新日志](https://github.com/lyswhut/lx-music-mobile/blob/master/CHANGELOG.md)。
 
-软件下载请查看 [GitHub Releases](https://github.com/ikunshare/ikun-music-mobile/releases)。
+软件下载请查看 [GitHub Releases](https://github.com/lyswhut/lx-music-mobile/releases)。
 
-使用常见问题请参阅 [常见问题](https://lyswhut.github.io/lx-music-doc/mobile/faq)。
+使用常见问题请参阅[移动版常见问题](https://lyswhut.github.io/lx-music-doc/mobile/faq)。
 
-目前本项目的原始发布地址只有 [**GitHub Releases**](https://github.com/ikunshare/ikun-music-mobile/releases)，其他渠道均为第三方转载发布，与本项目无关！
+目前本项目的原始发布地址只有 [**GitHub**](https://github.com/lyswhut/lx-music-mobile/releases)，其他渠道均为第三方转载发布，与本项目无关！
 
-为了提高使用门槛，本软件内的默认设置、UI 操作不以新手友好为目标，所以使用前建议先根据你的喜好浏览调整一遍软件设置，阅读一遍 [音乐播放列表机制](https://lyswhut.github.io/lx-music-doc/mobile/faq/playlist)。
+为了提高使用门槛，本软件内的默认设置、UI 操作不以新手友好为目标，所以使用前建议先根据你的喜好浏览调整一遍软件设置，阅读一遍[音乐播放列表机制](https://lyswhut.github.io/lx-music-doc/mobile/faq/playlist)。
 
 ### 数据同步服务
 
-从 v1.0.0 起，我们发布了一个独立版的 [数据同步服务](https://github.com/lyswhut/lx-music-sync-server#readme)，如果你有服务器，可以将其部署到服务器上作为私人多端同步服务使用，详情看该项目说明。
+从 v1.0.0 起，我们发布了一个独立的[数据同步服务](https://github.com/lyswhut/lx-music-sync-server#readme)。如果你有服务器，可以将其部署到服务器上作为私人多端同步服务使用，详情看该项目说明。
 
 ## 贡献代码
 
 本项目欢迎 PR，但为了 PR 能顺利合并，需要注意以下几点：
 
-- 对于添加新功能的 PR，建议在提交 PR 前先创建 issue 进行说明，以确认该功能是否确实需要；
+- 对于添加新功能的 PR，建议在提交 PR 前先创建 Issue 进行说明，以确认该功能是否确实需要；
 - 对于修复 bug 的 PR，请提供修复前后的说明及重现方式；
 - 对于其他类型的 PR，则适当附上说明。
 
 贡献代码步骤：
 
-1. 参照 [源码使用方法](https://lyswhut.github.io/lx-music-doc/mobile/use-source-code) 设置开发环境；
+1. 参照[源码使用方法](https://lyswhut.github.io/lx-music-doc/mobile/use-source-code)设置开发环境；
 2. 克隆本仓库代码并切换至 `dev` 分支进行开发；
 3. 提交 PR 至 `dev` 分支。
 
 <!--
 ## 用户界面
 
-<p><a href="https://github.com/ikunshare/ikun-music-mobile"><img width="100%" src="https://github.com/ikunshare/ikun-music-mobile/blob/master/doc/images/app.png" alt="lx-music mobile UI"></a></p> -->
+<p><img width="100%" src="https://github.com/lyswhut/lx-music-mobile/blob/master/doc/images/app.png" alt="lx-music mobile UI"></p> -->
 
 ## 项目协议
 
-本项目基于 [Apache License 2.0](https://github.com/ikunshare/ikun-music-mobile/blob/master/LICENSE) 许可证发行，以下协议是对于 Apache License 2.0 的补充，如有冲突，以以下协议为准。
+本项目基于 [Apache License 2.0](https://github.com/lyswhut/lx-music-mobile/blob/master/LICENSE) 许可证发行，以下协议是对于 Apache License 2.0 的补充，如有冲突，以以下协议为准。
 
 ---
 

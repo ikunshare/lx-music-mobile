@@ -13,6 +13,7 @@ const sources: Array<{
     supportQualitys: {
       kw: ['128k', '320k', 'flac', 'flac24bit'],
       kg: ['128k', '320k', 'flac', 'flac24bit'],
+      mg: ['128k', '320k', 'flac', 'flac24bit'],
       tx: ['128k', '320k', 'flac', 'flac24bit', 'master'],
       wy: ['128k', '320k', 'flac', 'flac24bit', 'master'],
     },
